@@ -112,13 +112,13 @@ will get the output:
 
 To get the area of a shape you can use the function area(); in the brackets you put the height and the width of the shape you want
 to find the area of, for example:
-    _____________
-    |            |
-3cm |            |
-    |____________|
-         5cm
+    _____________  
+    |            |  
+3cm |            |  
+    |____________|  
+         5cm  
 
-print_number(area(3, 5));
+print_number(area(3, 5));  
 
 will get the output:
 
@@ -129,13 +129,13 @@ will get the output:
 To get the area of a triangle you need to use the function area_of_a_triangle(); in the brackets you put the width and height of
 the triangle, for example:
 
-        ||
-3cm    |  |
-      |    |
-     |______|
-        4cm
+        ||  
+3cm    |  |  
+      |    |  
+     |______|  
+        4cm  
 
-print_number(area_of_a_triangle(4, 3));
+print_number(area_of_a_triangle(4, 3));  
 
 will get the output:
 

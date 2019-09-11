@@ -4,9 +4,9 @@
 
 using namespace std;
 
-namespace ns {
+double pi = 3.14159265359;
 
-    double pi = 3.14159265359;
+namespace ns {
 
     string getAnswer(string message) {
         string ans;
@@ -81,7 +81,7 @@ namespace ns {
         ans = pi * diameter;
         return ans;
     }
-
+    
     /* double* quadratic_formula(int a, int b, int c) {
         double ans[2];
         double top_pos = -b + sqrt(4*a*c);
